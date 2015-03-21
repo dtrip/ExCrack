@@ -1,0 +1,8 @@
+#!/bin/sh
+
+PY=$(which python)
+DIR=$(dirname $(readlink -e $0))
+
+echo "Staring ExCrack"
+
+$PY $DIR/src/ExCrack.py $@
