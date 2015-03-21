@@ -1,4 +1,3 @@
-
 from cement.core import controller
 
 class baseController(controller.CementBaseController):
